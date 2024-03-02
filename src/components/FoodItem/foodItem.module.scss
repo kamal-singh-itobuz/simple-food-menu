@@ -1,0 +1,24 @@
+.foodItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+    padding: 1rem 0.5rem;
+    background-color: purple;
+    color: white;
+    .foodName {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .buyButton {
+        padding: 0.3rem 1rem;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        border: 1px solid red;
+        background-color: rgb(246, 246, 95);
+    }
+} 
+.active {
+    background-color: rgb(254, 0, 42);
+}
